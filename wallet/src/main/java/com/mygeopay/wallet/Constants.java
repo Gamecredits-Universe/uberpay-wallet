@@ -22,6 +22,7 @@ import com.mygeopay.core.coins.DogecoinTest;
 import com.mygeopay.core.coins.EuropecoinMain;
 import com.mygeopay.core.coins.FairCoinMain;
 import com.mygeopay.core.coins.FeathercoinMain;
+import com.mygeopay.core.coins.GamecreditsMain;
 import com.mygeopay.core.coins.GcrCoinMain;
 import com.mygeopay.core.coins.GroestlCoinMain;
 import com.mygeopay.core.coins.LitecoinMain;
@@ -213,6 +214,9 @@ public class Constants {
             //
             new CoinAddress(BatacoinMain.get(),     new ServerAddress("electrum-bta.xyz", 50001)),
             //
+	    new CoinAddress(GamecreditsMain.get(),     new ServerAddress("gmc.cryptocloudhosting.org", 50001)),
+		                                       new ServerAddress("gamecredits.net", 50001)),
+            //
             new CoinAddress(StepscoinMain.get(),    new ServerAddress("192.241.216.229", 50001)),
             //                                        new ServerAddress("192.241.216.229", 50002)),
             new CoinAddress(BolicoinMain.get(),  new ServerAddress("electrum-boli.xyz", 50001)),
@@ -239,6 +243,7 @@ public class Constants {
         COINS_ICONS.put(CoinID.DOGECOIN_TEST.getCoinType(), R.drawable.dogecoin_test);
         COINS_ICONS.put(CoinID.DOGECOINDARK_MAIN.getCoinType(), R.drawable.doged);
         COINS_ICONS.put(CoinID.GCRCOIN_MAIN.getCoinType(), R.drawable.gcrcoin);
+	COINS_ICONS.put(CoinID.GAMECREDITS_MAIN.getCoinType(), R.drawable.gamecredits);
         COINS_ICONS.put(CoinID.BATACOIN_MAIN.getCoinType(), R.drawable.bta);
         COINS_ICONS.put(CoinID.LITECOIN_MAIN.getCoinType(), R.drawable.litecoin);
         COINS_ICONS.put(CoinID.LITECOIN_TEST.getCoinType(), R.drawable.litecoin_test);
@@ -284,6 +289,7 @@ public class Constants {
         COINS_BLOCK_EXPLORERS.put(CoinID.DOGECOIN_MAIN.getCoinType(), "https://chain.so/tx/DOGE/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.DOGECOIN_TEST.getCoinType(), "https://chain.so/tx/DOGETEST/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.GCRCOIN_MAIN.getCoinType(), "https://chainz.cryptoid.info/gcr/tx.dws?%s");
+	COINS_BLOCK_EXPLORERS.put(CoinID.GAMECREDITS_MAIN.getCoinType(), "http://gmc.cryptocloudhosting.org:3001/tx/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.LITECOIN_MAIN.getCoinType(), "http://ltc.blockr.io/tx/info/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.LITECOIN_TEST.getCoinType(), "https://chain.so/tx/LTCTEST/%s");
         COINS_BLOCK_EXPLORERS.put(CoinID.PEERCOIN_MAIN.getCoinType(), "http://ppc.blockr.io/tx/info/%s");
@@ -353,6 +359,7 @@ public class Constants {
             BlackcoinMain.get(),
             ClamcoinMain.get(),
             MonacoinMain.get(),
+	    GamecreditsMain.get(),
 /*            GroestlCoinMain.get(), */
             NovacoinMain.get(),
             NuSharesMain.get(),
