@@ -20,7 +20,7 @@ public class GamecreditsMain extends CoinType {
         fullname = "Gamecredits";
         symbol = "GAME";
         uriScheme = "gamecredits";
-        bip44Index = X; 
+        bip44Index = 101; 
         unitExponent = 8;
         feePerKb = value(100000);
         minNonDust = value(1000); // 0.00001 GAME mininput
