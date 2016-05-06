@@ -214,8 +214,8 @@ public class Constants {
             //
             new CoinAddress(BatacoinMain.get(),     new ServerAddress("electrum-bta.xyz", 50001)),
             //
-	    new CoinAddress(GamecreditsMain.get(),     new ServerAddress("gmc.cryptocloudhosting.org", 50002)),
-		                                       new ServerAddress("gamecredits.net", 50002)),
+	    new CoinAddress(GamecreditsMain.get(),     new ServerAddress("gmc.cryptocloudhosting.org", 50001)),
+		                                       new ServerAddress("gamecredits.net", 50001)),
                                                        new ServerAddress("game-cce-1.coinomi.net", 5066)),
                                                        new ServerAddress("game-cce-2.coinomi.net", 5067)),
                                                        new ServerAddress("5.196.70.166", 50001)),

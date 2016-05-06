@@ -13,7 +13,7 @@ public class GamecreditsMain extends CoinType {
         p2shHeader = 5;    // script address
         acceptableAddressCodes = new int[] { addressHeader, p2shHeader };
         spendableCoinbaseDepth = 100;
-        dumpedPrivateKeyHeader = 176;
+        dumpedPrivateKeyHeader = 166;
 
         family = BitFamily.get();
         name = "GAME";
